@@ -96,6 +96,11 @@ p {
     font-size: 1rem;
     margin: 10px 0;
 }
+.content-title2{
+    text-align: center;
+    font-size: 16px;
+    font-weight: 900;
+}
 
 
 #about .content{
@@ -107,8 +112,12 @@ p {
 #about.text{
     text-align: left;
 }
-
-
+/* footer------------------------------------- */
+footer{
+    font-size: 0.5rem;
+    padding: 10px 0;
+    text-align: center;
+}
 @media screen and (max-width: 600px) {
 
     /*-------------------------------------------
