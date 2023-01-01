@@ -12,12 +12,25 @@ body {
     margin: 0;
 }
 
-
-.title {
-    width: 120px;
-    padding: 10px 0;
-
+#mainvis img{
+    width: 100%;
+    max-width: 1920px;
+    height: 600px;
+    object-fit: cover;
 }
+
+.imag-profile {
+
+    width: 120px;
+    line-height: 1px;
+    padding: 10px 0;
+}
+
+.img-profile a{
+    display: block;
+}
+
+
 
 .img-profile {
     width: 120px;
@@ -101,7 +114,7 @@ p {
     /*-------------------------------------------
     Mainvisual-*/
     #mainvis img {
-      height: calc(100vh -60px);
+      height: calc(100vh - 60px);
     }
   
     /*-------------------------------------------
@@ -126,3 +139,4 @@ p {
     }
   }
   
+
